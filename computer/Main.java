@@ -28,17 +28,7 @@ public class Main {
          thePC.getTheCase().pressPowerButton();
 
 
-
-         Window window=new Window(12,20);
-
-         Lamp lamp=new Lamp("white");
-
-         Room room =new Room(lamp,window);
-
-         room.getLamp().press();
-
-
-         House house=new House(room);
+ 
 
 
 
